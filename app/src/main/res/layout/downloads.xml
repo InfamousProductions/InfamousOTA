@@ -5,7 +5,7 @@
                 android:layout_height="match_parent">
 
     <fragment
-        class="com.otaupdater.DownloadBarFragment"
+        class="com.infamous.otaupdater.DownloadBarFragment"
         android:id="@+id/downloads_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -13,7 +13,7 @@
         tools:layout="@layout/download_bar" />
 
     <fragment
-        class="com.otaupdater.AdsFragment"
+        class="com.infamous.otaupdater.AdsFragment"
         android:id="@+id/ads"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
         tools:layout="@layout/ads" />
 
     <fragment
-        class="com.otaupdater.DownloadListFragment"
+        class="com.infamous.otaupdater.DownloadListFragment"
         android:id="@+id/download_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

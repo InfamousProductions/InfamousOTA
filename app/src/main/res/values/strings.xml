@@ -16,7 +16,7 @@
 -->
 <resources>
 
-    <string name="app_name">OTA Updater</string>
+    <string name="app_name">Infamous OTA</string>
     <string name="app_license">License</string>
     <string name="app_contrib">Contributors</string>
     <string name="app_downloads">Downloads</string>
@@ -107,11 +107,11 @@
 
     <string name="about_ota_title">OTA Updater</string>
     <string name="about_ota_summary">Copyright © 2014 - OTA Update Center\nFully open-source\nTap to visit our website</string>
-    <string name="about_version_title">Version</string>
+    <string name="about_version_title">Version / Open-Source License</string>
     <string name="about_version_unknown">Unknown Version (error in package manager)</string>
     <string name="about_ota_feature_missing_title">Missing OTA Feature File!!</string>
     <string name="about_ota_feature_missing_summary">The feature XML file is missing from this ROM/Kernel. Without this file, you will not be able to update this app via the Play Store.\n\nPlease contact your ROM/Kernel developer and kindly ask them to add the file. Instructions are available on our website on how to do this.</string>
-    <string name="about_license_title">Open-Source License</string>
+    <string name="about_license_title">Infamous Development G+ Community</string>
     <string name="about_contrib_title">Contributors</string>
     <string name="about_feedback_title">Feedback</string>
     <string name="about_uptodate">Keep Up-to-Date!</string>
@@ -177,8 +177,8 @@
     <!--<string name="settings_prokey_summary_verify">Thank you for buying the PRO Key!\nVerification did not complete last time, tap to try again..</string>-->
     <!--<string name="settings_prokey_summary_verifying">Thank you for buying the PRO Key!\nKey verification in progress…</string>-->
     <string name="settings_prokey_redeeming">Redeeming…</string>
-    <string name="settings_donate_title">Donate</string>
-    <string name="settings_donate_summary">Any donations are greatly accepted and go directly to pay hosting and development costs</string>
+    <string name="settings_donate_title">Donate to OTA Update Center</string>
+    <string name="settings_donate_summary">Any donations are greatly accepted and go directly to pay hosting and development costs (not Infamous)</string>
 
     <string name="prokey_thanks">Thank you for buying the PRO Key!!!\n\nAll of the money goes to pay for hosting costs in order to provide you with the best possible service.\n\nPlease enjoy all of the features of our app, along with no ads!\nThanks again for the support!</string>
     <string name="prokey_redeemed_thanks">You have redeemed a PRO Key code!\n\nThank you for your support. Please spread the word about this app so we can continue to grow and provide the best possible OTA service!</string>
@@ -191,5 +191,8 @@
     <string name="prokey_only_get">Get PRO Key</string>
 
     <string name="unknown_error">An unknown error has occurred!</string>
+	
+	<!-- ads -->
+	<string name="banner_ad_unit_id">ca-app-pub-1365616957524122/9531393493</string>
 
 </resources>

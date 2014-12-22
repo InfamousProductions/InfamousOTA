@@ -16,13 +16,13 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="com.otaupdater"
-    android:versionCode="203"
-    android:versionName="2.0.3">
+          package="com.infamous.otaupdater"
+    android:versionCode="1"
+    android:versionName="1.0">
 
-    <uses-feature android:name="com.otaupdater.ota_feature" android:required="true" />
+    <uses-feature android:name="com.infamous.otaupdater.ota_feature" android:required="true" />
 
-    <permission android:name="com.otaupdater.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <permission android:name="com.infamous.otaupdater.permission.C2D_MESSAGE" android:protectionLevel="signature" />
 
     <uses-permission android:name="android.permission.REBOOT" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -33,7 +33,7 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="com.otaupdater.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.infamous.otaupdater.permission.C2D_MESSAGE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="com.android.vending.BILLING" />
     <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
@@ -53,7 +53,7 @@
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
@@ -61,7 +61,7 @@
             android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <category android:name="com.otaupdater" />
+                <category android:name="com.infamous.otaupdater" />
             </intent-filter>
         </receiver>
 
@@ -98,9 +98,9 @@
         <receiver android:name=".DownloadReceiver"
                   tools:ignore="ExportedReceiver">
             <intent-filter>
-                <action android:name="com.otaupdater.action.DL_ROM_ACTION" />
-                <action android:name="com.otaupdater.action.DL_KERNEL_ACTION" />
-                <action android:name="com.otaupdater.action.CLEAR_DL_ACTION" />
+                <action android:name="com.infamous.otaupdater.action.DL_ROM_ACTION" />
+                <action android:name="com.infamous.otaupdater.action.DL_KERNEL_ACTION" />
+                <action android:name="com.infamous.otaupdater.action.CLEAR_DL_ACTION" />
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
                 <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
             </intent-filter>
